@@ -1,0 +1,109 @@
+body{
+    background: white;
+}
+.detail-main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* background: red; */
+}
+
+.detail-item-main {
+    flex-wrap: wrap;
+    display: flex;
+    /* background: yellow; */
+}
+
+.img-item {
+    /* background: red; */
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 2px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail-item {
+    margin: 20px;
+    color: gray;
+}
+
+.detail-item h1 {
+    margin-top: 20px;
+}
+
+.detail-item h5 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Infinix {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.color {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.detail-main-img {
+    display: flex;
+}
+
+.detail-item-img {
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    border: 2px solid gray;
+}
+
+.detail-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.detail-btn button {
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background: none;
+    color: gray;
+    padding: 10px;
+}
+
+.detail-btn button:hover {
+    color: #48afff;
+    border-radius: 5px;
+    border: 1px solid #48afff;
+}
+
+.detail-btn-1 {
+    margin-top: 20px;
+    /* background: green; */
+}
+
+.btn-1 {
+    background: orange;
+    border: none;
+    color: white;
+    width: 49%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn-2 {
+    border: none;
+    color: white;
+    width: 49%;
+    padding: 15px;
+    border-radius: 5px;
+    background: #48afff;
+
+}
